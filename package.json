@@ -1,0 +1,9 @@
+{
+  "name": "cyber-report-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "concurrently -k \"node --env-file-if-exists=.env server.js\" \"vite\"", "build": "vite build", "start": "node --env-file-if-exists=.env server.js" },
+  "dependencies": { "@vitejs/plugin-react": "latest", "vite": "latest", "react": "latest", "react-dom": "latest", "lucide-react": "latest", "express": "latest", "express-session": "latest", "concurrently": "latest" },
+  "devDependencies": {}
+}
